@@ -1,0 +1,11 @@
+   void main() {
+     int a=6;
+     int b=5;
+     int re=0;
+     while(re<=1200){
+       int r=a*b;
+       re=re+r;
+       print(a.toString() +"*" + b.toString() +"=" +r.toString());
+       print("acumulativo"+ re.toString());
+     }
+ }
